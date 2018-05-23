@@ -33,5 +33,5 @@ LogPriorOdds <- function(proposed, current, other_model, out_model, omega) {
       }
     }
   }
-  return(r)
+  return(log(r))
 }
